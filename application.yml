@@ -1,0 +1,14 @@
+globla message: Mensaje global para todos los servicios
+spring:
+  eureka:
+    client:
+      service-url:
+        defaultZone: http//localhost:8761/eureka
+  management:  #habilito actuator que brinda info de cada servicio
+    info:
+      env:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health, info
