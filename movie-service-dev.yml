@@ -1,15 +1,15 @@
 server:
   port: 8882
   
-# spring:
-#   jpa:
-#     hibernate:
-#       ddl-auto: update
-#   datasource:
-#     url: jdbc:mysql://mysql:3306/tp_final
-#     username: root
-#     password: 199325
-#     driver-class-name: com.mysql.cj.jdbc.Driver
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://mysql:3306/tp_final
+    username: root
+    password: 199325
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 info:
   app:
