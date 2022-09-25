@@ -1,15 +1,14 @@
 server:
-  port: 8882
-  
+  port: 8082
+
 spring:
   jpa:
     hibernate:
       ddl-auto: update
   datasource:
-    
     url: jdbc:mysql://mysql:3307/tp_final
-    username: root
-    password: 199325
+    username: user
+    password: pass
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 info:
