@@ -1,4 +1,3 @@
-globla message: Mensaje global para todos los servicios
 spring:
   eureka:
     client:
